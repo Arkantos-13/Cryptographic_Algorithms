@@ -31,7 +31,7 @@ def Caesar():
 
     choice_of_user = int(input('P1ease choose one of the following belong: \n Enter 1. '  
                                'For Encryption:\n Enter 2. For Decryption: \n '
-                               'Enter 3. For Break: \n '))
+                               'Enter 3. For Brute Force Attack: \n '))
 
 
     if (choice_of_user ==1) | (choice_of_user ==2):
