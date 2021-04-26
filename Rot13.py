@@ -10,6 +10,8 @@ If we have a lower case letter we change it with the new lower letter.
 Some on the final else statement, but this time it works for the upper case letter.
 
 """
+
+
 key = 13
 message = input('Type your message:')
 choice = int(input('type your choice:'))
