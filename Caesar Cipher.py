@@ -48,3 +48,22 @@ def Caesar():
 
 
 Caesar()
+
+
+
+
+# Brute Force Attack on Caesar Cipher
+# It will give you all the 26 combinations of shifts 
+# The combinations are 26 because the letters of English alphabet are 26
+
+
+message_to_break = encrypt_caesar(plain_text, shift)
+
+
+def Brute_Force_Caesar(message_to_break):
+    print('Your original message is somewhere below: \n')
+    for i in range(26):
+        print(' shift{:2} : {}'.format(i, decrypt_caesar(message_to_break, shift=i)))
+
+
+Brute_Force_Caesar(message_to_break)
