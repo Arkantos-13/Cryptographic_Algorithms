@@ -4,10 +4,13 @@ import secrets
 # Get the secret message from the user, in order to convert it
 plaintext = input('Please type your secret message: ')
 
+
 """
 Here we only need as input the plaintext
 because we create the key in the def in order to be unique each time
 """
+
+
 def Vernam_Encryption(plaintext):
 
     # Create a secret key each time with the same length of the message
@@ -20,9 +23,12 @@ def Vernam_Encryption(plaintext):
 
     print('This is the encrypted message: ', encrypted_message)
 
+    
 """
 In order to decrypt the message we must have both the encrypted message and the key that it was encrypted
 """
+
+
 def Vernam_Decryption(plaintext,key):
 
     decrypted_message = ''.join(chr(ord(a) ^ ord(b)) for a,b in zip(plaintext,key))
