@@ -11,14 +11,14 @@ Some on the final else statement, but this time it works for the upper case lett
 
 """
 
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 key = 13
 message = input('Type your message:')
-choice = int(input('type your choice:'))
+choice = int(input('Type 1. For Encryption or 2. For Decryption:'))
 
 
 def ROT13_encryption(message):
-    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     shifted_alphabet = alphabet[key:] + alphabet[:key]
     cipher_text = " "
 
@@ -27,17 +27,16 @@ def ROT13_encryption(message):
         position = alphabet.find(char.upper())
 
         if position == -1:
-            cipher_text = cipher_text + char
+            cipher_text += char
         elif char.islower():
-            cipher_text = cipher_text + shifted_alphabet[position].lower()
+            cipher_text += shifted_alphabet[position].lower()
         else:
-            cipher_text = cipher_text + shifted_alphabet[position]
+            cipher_text += shifted_alphabet[position]
 
     return cipher_text
 
 
 def ROT13_decryption(message):
-    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     shifted_alphabet = alphabet[-key:] + alphabet[:-key]
     cipher_text = " "
 
@@ -46,11 +45,11 @@ def ROT13_decryption(message):
         position = alphabet.find(char.upper())
 
         if position == -1:
-            cipher_text = cipher_text + char
+            cipher_text += char
         elif char.islower():
-            cipher_text = cipher_text + shifted_alphabet[position].lower()
+            cipher_text += shifted_alphabet[position].lower()
         else:
-            cipher_text = cipher_text +s shifted_alphabet[position]
+            cipher_text += shifted_alphabet[position]
 
     return cipher_text
 
