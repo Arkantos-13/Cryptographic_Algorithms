@@ -1,8 +1,12 @@
+"""
+Import the necessary module from Python
+"""
 import math
 
 '''
-Input 2 prime numbers.
+Input 2 prime numbers
 '''
+
 print("Please enter 2 prime numbers p,q>20 (etc 23,29,31)")
 p = int(input("Enter the first prime number for p: "))
 q = int(input("Enter the second prime number for q: "))
@@ -11,6 +15,7 @@ q = int(input("Enter the second prime number for q: "))
 '''
 Tests to see if a number is prime.
 '''
+
 def prime_check(a):
     if (a < 20):
         return False
@@ -175,15 +180,4 @@ if __name__ == '__main__':
 
     else:
         print("You entered the wrong option.")
-
-
-
-
-
-
-
-
-
-
-
-
+        
