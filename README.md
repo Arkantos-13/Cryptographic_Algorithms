@@ -13,20 +13,21 @@ My purpose is to add more ciphers as time pass with the same quality.
 Below, are all the ciphers i have done so far.
 
 
-* Affine 
+* [Affine]() 
 * [ASCII](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/ASCII%20Table%20Cipher.py)
-* Atbash 
-* Binary
-* Caesar Cipher the Classic version
-* Caesar Cipher - 2 advanced ciphers with different style 
-* Caesar Cipher in Greek 
-* Encryption of a image
-* Morse Code in English - You can hear your text
-* Morse Code in Greek 
-* ROT 13 
-* ROT 47 
-* RSA 
-* Vernam Cipher
-* Vigenere Cipher 
+* [Atbash](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Atbash%20Cipher.py)
+* [Binary](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Binary%20Cipher.py)
+* [Caesar Cipher the Classic version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Classic%201.0.py)
+* [Caesar Cipher 2.0 - Advanced version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Improvement%202.0.py)
+* [Caesar Cipher 3.0 - Advanced version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Improvement%203.0.py)
+* [Caesar Cipher in Greek](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20in%20Greek.py)
+* [Encryption of a image](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Encryption%20of%20a%20Picture.py)
+* [Morse Code in English - You can hear your text](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Morse%20Cipher%20in%20English.py)
+* [Morse Code in Greek](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Morse%20Cipher%20in%20Greek.py)
+* [ROT 13](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Rot13%20Cipher.py)
+* [ROT 47](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/ROT47.py)
+* [RSA](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/RSA%20Cipher.py)
+* [Vernam Cipher](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Vernam%20Cipher.py)
+* [Vigenere Cipher](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Vigenere%20Cipher.py)
 
 
