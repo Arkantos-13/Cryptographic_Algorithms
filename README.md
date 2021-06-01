@@ -1,4 +1,4 @@
-                                                 Cryptographic Algorithms Represantation 
+                                          Cryptographic Algorithms Represantation 
 
 Represantation of different kind of cryptographic ciphers in Python with explanations and therefore comments for better understanding by everyone.
 
