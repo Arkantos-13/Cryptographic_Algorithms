@@ -1,44 +1,64 @@
-message = input("PLEASE TYPE YOUR MESSAGE BELOW:")
-key = int(input("PLEASE TYPE THE NUMBER OF SHIFTS YOU WANT TO MAKE:"))
-mode = int(input('''PLEASE CHOICE \n1. FOR ENCRYPTION:   \n2. FOR DECRYPTION:  \n '''))
+"""
+Another way to create an evolution of the Caesar Cipher
+"""
+
+"""
+The information that a user have to type each time
+"""
+
+mode = int(input('Enter 1. For Encryption: \n'
+                 'Enter 2. For Decryption: \n'
+                 ))
+
+message = input("Please type your message here: \n")
+key = int(input("Please type the number of shifts you would like to make : \n"))
 
 def Encryption_Caesar(message, key):
     encrypted_message = ' '
 
     for letter in message:
-
+        # Here we check if a letter is uppercase and then we transport it
         if letter.isupper():
 
-            # check if it's an uppercase character
             letter_index = ord(letter) - ord('A')
             letter_shifted = (letter_index + key) % 26 + ord('A')
 
             letter_new = chr(letter_shifted)
             encrypted_message += letter_new
 
+        # Here we check if a letter is lowercase
         elif letter.islower():
 
-            # check if it's an lowercase character
+            # check if it's an lowercase character and then we transport it
             letter_index = ord(letter) - ord('a')
             letter_shifted = (letter_index + key) % 26 + ord('a')
 
             letter_new = chr(letter_shifted)
             encrypted_message += letter_new
+
+        # Here we check if we have a digit and then we transport it
         elif letter.isdigit():
 
-            # Check if its a number
-            # If its a number then it shift it the key value
-            # For example if we have the number 3 and our key is 5 then the new number will be 8
+            """
+            If it's a number then we shift it the key value
+            For example if we have the number 3 and our key is 5 then the new number will be 8
+            """
 
             letter_new = (int(letter) + key) % 10
             encrypted_message += str(letter_new)
 
+        elif letter.isspace():
+
+            encrypted_message += ' '
+
+        # Here we check if we have a punctuation and then we transport it
         else:
 
-            # Check if its a punctuation
-            # The total number of the punctuation are 32
-            # If its a number then it shift it the key value
-            # If you are confused check the ASCII table
+            """"
+            The total number of the punctuation are 32
+            It shifts the punctuation key values according to ASCII table
+            If you are confused check the ASCII table
+            """
 
             letter_index = ord(letter) - ord('!')
             letter_shifted = (letter_index + key) % 32 + ord('!')
@@ -55,7 +75,7 @@ def Decryption_Caesar(message, key):
 
         if letter.isupper():
 
-            # check if it's an uppercase character
+            # check if it's an uppercase character and then we transport it
             letter_index = ord(letter) - ord('A')
             letter_shifted = (letter_index - key) % 26 + ord('A')
 
@@ -64,27 +84,36 @@ def Decryption_Caesar(message, key):
 
         elif letter.islower():
 
-            # check if it's an lowercase character
+            # check if it's an lowercase character and then we transport it
             letter_index = ord(letter) - ord('a')
             letter_shifted = (letter_index - key) % 26 + ord('a')
 
             letter_new = chr(letter_shifted)
             decrypted_message += letter_new
+
         elif letter.isdigit():
 
-            # Check if its a number
-            # If its a number then it shift it the key value
-            # For example if we have the number 3 and our key is 5 then the new number will be 8
+            """
+            Check if it's a number
+            If it's a number then it shift it the key value
+            For example if we have the number 3 and our key is 5 then the new number will be 8
+            """
 
             letter_new = (int(letter) - key) % 10
             decrypted_message += str(letter_new)
 
+        elif letter.isspace():
+
+            decrypted_message += ' '
+
         else:
 
-            # Check if its a punctuation
-            # The total number of the punctuation are 32
-            # If its a number then it shift it the key value
-            # If you are confussed check the ascii table
+            """
+            Check if it's a punctuation
+            The total number of the punctuation are 32
+            If it's a number then it shift it the key value
+            If you are confused check the ascii table
+            """
 
             letter_index = ord(letter) - ord('!')
             letter_shifted = (letter_index - key) % 32 + ord('!')
@@ -96,10 +125,10 @@ def Decryption_Caesar(message, key):
 def Caesar(message, key, mode):
 
     if mode == 1:
-        print(f'Your encrypted message is the following below:', Encryption_Caesar(message,key))
+        print('Your encrypted message is the following below:', Encryption_Caesar(message,key))
 
     elif mode ==2:
-        print(f'Your encrypted message is the following below:', Decryption_Caesar(message,key))
+        print('Your encrypted message is the following below:', Decryption_Caesar(message,key))
     else:
         print('Please type a right choice and run me again')
 
