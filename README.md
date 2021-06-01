@@ -1,1 +1,0 @@
-# Cryptographic_Algorithm
