@@ -1,6 +1,6 @@
-                                     Cryptographic Algorithms Represantation 
+                                     Cryptographic Algorithms Representation 
 
-Represantation of different kind of cryptographic ciphers in Python with explanations and therefore comments for better understanding by everyone.
+Representation of different kind of cryptographic ciphers in Python with explanations and therefore comments for better understanding by everyone.
 
 Inside each cipher file, you will find out both the encryption and the decryption method.
 
