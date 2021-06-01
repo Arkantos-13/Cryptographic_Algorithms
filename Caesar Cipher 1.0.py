@@ -1,8 +1,14 @@
-# Import the necessary module
+"""
+This code is an evolution of the classic Caesar Cipher,
+because he can transport despite uppercase and lowercase letters but numbers, punctuations and spaces
+"""
+
+# Import the necessary module in order to create our alphabet
 import string
 
-# This is the alphabet that we will use in order to convert the texts
+# This is the new alphabet that we will use in order to convert our texts
 alphabets = string.ascii_uppercase, string.ascii_lowercase, string.digits, string.punctuation
+
 
 def encrypt_caesar(plain_text, shift):
     def shift_alphabet_encrypt(alphabets):
@@ -28,28 +34,37 @@ def decrypt_caesar(plain_text, shift):
 
 def Caesar():
 
-    choice_of_user = int(input('P1ease choose one of the following belong: \n '
+    # The user has three options
+    choice_of_user = int(input('Please choose one of the following belong: \n '
                                'Enter 1. For Encryption:\n '
                                'Enter 2. For Decryption: \n '
                                'Enter 3. For Brute Force Attack: \n '))
 
+    if (choice_of_user == 1) | (choice_of_user == 2):
 
-    if (choice_of_user == 1) | (choice_of_user ==2):
+        """
+        Information that the user has to type each time
+        """
 
-        # Info of the User
         plain_text = input('Please type your text that you want to Encrypt/Decrypt: \n')
         shift = int(input('Please type your key number (0-25) so to encrypt/decrypt the message: \n'))
 
         if choice_of_user == 1:
-            print('You chose the number', choice_of_user, 'so you just want to encrypt your message:')
-            print('The encrypted message is: ', encrypt_caesar(plain_text, shift))
+            print('You chose the number', choice_of_user, 'so you just want to encrypt your message: \n'
+                  'The encrypted message is: ', encrypt_caesar(plain_text, shift))
 
         elif choice_of_user == 2:
-            print('You chose the number', choice_of_user, 'so you just want to decrypt your message:')
-            print('The decrypted message is: ', decrypt_caesar(plain_text, shift))
+            print('You chose the number', choice_of_user, 'so you just want to decrypt your message: \n' 
+                  'The decrypted message is: ', decrypt_caesar(plain_text, shift))
 
     elif choice_of_user == 3:
-        # BRUTE FORCE ATTACK
+
+        """
+        BRUTE FORCE ATTACK
+        
+        You can break any message without knowing the key 
+        """
+
         message_to_break = input('Type your message you want to apply Brute Force Attack: ')
         print('Your original message is somewhere below: \n')
 
@@ -57,7 +72,7 @@ def Caesar():
             print(' shift{:2} : {}'.format(i, decrypt_caesar(message_to_break, shift=i)))
 
     else:
-        print('\n', 'Please type valid input')
+        print('Please type a valid input')
 
 
 Caesar()
