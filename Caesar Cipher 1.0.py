@@ -3,7 +3,6 @@ import string
 
 # This is the alphabet that we will use in order to convert the texts
 alphabets = string.ascii_uppercase, string.ascii_lowercase, string.digits, string.punctuation
-print(alphabets)
 
 def encrypt_caesar(plain_text, shift):
     def shift_alphabet_encrypt(alphabets):
@@ -29,12 +28,13 @@ def decrypt_caesar(plain_text, shift):
 
 def Caesar():
 
-    choice_of_user = int(input('P1ease choose one of the following belong: \n Enter 1. '  
-                               'For Encryption:\n Enter 2. For Decryption: \n '
+    choice_of_user = int(input('P1ease choose one of the following belong: \n '
+                               'Enter 1. For Encryption:\n '
+                               'Enter 2. For Decryption: \n '
                                'Enter 3. For Brute Force Attack: \n '))
 
 
-    if (choice_of_user ==1) | (choice_of_user ==2):
+    if (choice_of_user == 1) | (choice_of_user ==2):
 
         # Info of the User
         plain_text = input('Please type your text that you want to Encrypt/Decrypt: \n')
