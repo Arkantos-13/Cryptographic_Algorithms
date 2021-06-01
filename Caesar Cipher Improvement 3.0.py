@@ -129,6 +129,7 @@ def Caesar(message, key, mode):
 
     elif mode ==2:
         print('Your encrypted message is the following below:', Decryption_Caesar(message,key))
+        
     else:
         print('Please type a right choice and run me again')
 
