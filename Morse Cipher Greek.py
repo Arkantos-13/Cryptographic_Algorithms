@@ -1,6 +1,16 @@
+"""
+Import the necessary modules.
+
+We use the module playsound so we can listen the Morse Code as we use telegraph.
+Also, we use the module time in order to create the spaces between the letters for better understanding of the Morse Code
+"""
+
 from playsound import playsound
 import time
 
+"""
+This is the Morse Code for the Greek language 
+"""
 
 morse_dict = {
 
@@ -32,43 +42,53 @@ morse_dict = {
     ":": "---..."
 }
 
+"""
+Convert the text in Morse Code
+"""
 
 def Txt_to_Morse():
-    txt = input('Please type your Text to convert to Morse code: ')
+
     letters = [morse_dict[i.upper()] + ' ' for i in txt if i.upper() in morse_dict.keys()]
     morse = ''.join(letters)
-    print(morse)
+    print('Here is your message in Morse Code: \n', morse)
+
+    """
+    Here it is how we can listen our message in Morse Code.
+    In order to make it happen you need to download the wav files first
+    """
+
     for m in morse:
         if m == '.':
             playsound('dit.wav')
         elif m == '-':
             playsound('dah.wav')
         else:
-            time.sleep(10)
+            time.sleep(0.5)
 
+"""
+Convert the Morse Code back to text
+"""
 
 def Morse_to_Txt():
-    txt = input('Please type your Morse Code to convert to Text: ')
+
     letters = [k for i in txt.split() for k, v in morse_dict.items() if i == v]
     new_txt = ''.join(letters)
-    print(new_txt)
+    print('Here is your message from Morse Code back to normal: \n',new_txt)
 
 
-print('''\n1 - Convert Text to Morse \n2 - Convert Morse to Text\n3 - Quit\n ''')
+print('''\n 1 - Convert Text to Morse \n 2 - Convert Morse to Text\n 3 - Quit\n ''')
 
 while True:
     try:
         choice_of_user = int(input('Type your Choice:'))
 
         if choice_of_user == 1:
-            print(Txt_to_Morse())
+            txt = input('Please type your Text to convert to Morse Code: ')
+            Txt_to_Morse()
             break
         elif choice_of_user == 2:
-            print((Morse_to_Txt()))
+            txt = input('Please type your Morse Code to convert to Text: ')
+            Morse_to_Txt()
             break
-        elif choice_of_user == 3:
-            print('Wrong Choice, Try again')
-        else:
-            print('AGAIN')
     except:
-        print('Enter again')
+        print('Wrong Choice, Please try again')
