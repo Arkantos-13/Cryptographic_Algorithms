@@ -1,5 +1,5 @@
 """
-Here are the two alphabets, both in English and in Greek
+Here are the two alphabets, both in English and Greek
 """
 
 Alphabet = "ABCDEFGHIJKLMNOPQRSTUWXYZΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ"
