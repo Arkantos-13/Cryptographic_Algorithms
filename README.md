@@ -6,7 +6,7 @@ Inside each cipher file, you will find out both the encryption and the decryptio
 
 Also, i have tried to explain how each cipher works, the level of security that provide and if it's safe or not.
 
-The ciphers have been written in Python 3.8 and PyCharm.
+The ciphers have been written in Python 3.8 and PyCharm 2020.3.5.
 
 My purpose is to add more ciphers as time pass with the same quality.
 
