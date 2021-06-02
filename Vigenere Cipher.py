@@ -21,11 +21,14 @@ def Decryption_Vigenere(message, key):
         decrypted_message += chr(decrypted_letters + 32)
     return decrypted_message
 
-
+"""
+The information the user has to type each time 
+"""
 message = input('Please type your text:')
 key = input('Please type your key word:')
-choice_of_user = int(
-    input('P1ease choose one of the following belong: \n Enter 1.For Encryption:\n Enter 2. For Decryption: \n '))
+choice_of_user = int(input('P1ease choose one of the following belong: \n'
+                           'Enter 1. For Encryption:\n'
+                           'Enter 2. For Decryption:\n'))
 
 
 def Vigenere_Cipher(choice_of_user, message, key):
