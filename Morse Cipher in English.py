@@ -1,7 +1,13 @@
+"""
+The module we will need for this cipher 
+"""
 from playsound import playsound
 import time
 import pyttsx3 as pyt
 
+"""
+The English alphabet, numbers and punctuation in Morse
+"""
 morse_dict = {
 
     # Uppercase letters
@@ -30,6 +36,7 @@ morse_dict = {
     '(': '-.--.', ')': '-.--.-', "_": "..--.-",
     "=": "-...-", "+": ".-.-.", "@": ".--.-.",
     ":": "---..."
+
 }
 
 
@@ -38,18 +45,26 @@ def Txt_to_Morse():
     letters = [morse_dict[i.upper()] + ' ' for i in txt if i.upper() in morse_dict.keys()]
     morse = ''.join(letters)
     print(morse)
-
+    """
+    This is the part of the code that can play your message in Morse Code
+    However i can not upload any audio files on GitHub, because of privacy matters
+     but if you Google it you will find the same files
+    """
     for m in morse:
         if m == '.':
             playsound('dit.wav')
         elif m == '-':
             playsound('dah.wav')
+
         else:
-            time.sleep(5000)
+             """
+             0.5 seconds, is the time space between '.' and '-' when we hear the Morse Code
+             """
+             time.sleep(0.5)
 
 
 def Morse_to_Txt():
-    txt = input('Please type your Morse Code to convert to Text:')
+    txt = input('Please type your Morse Code to convert back to Text:')
     letters = [k for i in txt.split() for k, v in morse_dict.items() if i == v]
     new_txt = ''.join(letters)
     print(new_txt)
@@ -66,10 +81,10 @@ while True:
         choice_of_user = int(input('Type your Choice:'))
 
         if choice_of_user == 1:
-            print(Txt_to_Morse())
+            Txt_to_Morse()
             break
         elif choice_of_user == 2:
-            print((Morse_to_Txt()))
+            Morse_to_Txt()
             break
         elif choice_of_user == 3:
             print('Exiting')
