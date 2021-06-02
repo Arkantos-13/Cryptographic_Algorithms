@@ -13,8 +13,8 @@ My purpose is to add more ciphers as time pass with the same quality.
 Below, are all the ciphers i have done so far.
 
 
-* [Affine]() 
 * [ASCII](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/ASCII%20Table%20Cipher.py)
+* [Affine](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Affine%20Cipher.py) 
 * [Atbash](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Atbash%20Cipher.py)
 * [Binary](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Binary%20Cipher.py)
 * [Caesar Cipher the Classic version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Classic%201.0.py)
