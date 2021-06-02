@@ -1,5 +1,10 @@
 """
-The modules we will need for this cipher 
+
+Import the necessary modules.
+
+We use the module playsound so we can listen the Morse Code as we use telegraph.
+Also, we use the module time in order to create the spaces between the letters for better understanding of the Morse Code
+
 """
 from playsound import playsound
 import time
