@@ -1,5 +1,5 @@
 """
-The module we will need for this cipher 
+The modules we will need for this cipher 
 """
 from playsound import playsound
 import time
