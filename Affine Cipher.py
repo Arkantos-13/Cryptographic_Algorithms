@@ -46,7 +46,10 @@ def affine_decrypt(cipher, key):
                          % 26) + ord('A')) for c in cipher])
 
 
-# Driver Code to test the above functions
+"""
+Driver Code to test the above functions
+"""
+
 def main():
     # declaring text and key
     message = input('Please type your message you would like to Encrypt or Decrypt: ')
