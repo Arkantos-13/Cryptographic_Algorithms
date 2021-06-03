@@ -10,7 +10,7 @@ The ciphers have been written in Python 3.8 and PyCharm 2020.3.5.
 
 My purpose is to add more ciphers as time pass with the same quality.
 
-Below, are all the ciphers i have done so far.
+Below, are all the ciphers i have done so far, but my purpose is to do more in the near future.
 
 
 * [ASCII](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/ASCII%20Table%20Cipher.py)
