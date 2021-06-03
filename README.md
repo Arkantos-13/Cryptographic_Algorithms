@@ -23,7 +23,7 @@ Below, are all the ciphers i have done so far, but my purpose is to do more in t
 * [Caesar Cipher in Greek](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20in%20Greek.py)
 * [Encryption of a image](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Encryption%20of%20a%20Picture.py)
 * [Morse Code in English - You can hear your text both in English and in Morse Code](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Morse%20Cipher%20in%20English.py)
-* [Morse Code in Greek - You can hear your text in Morse Code](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Morse%20Cipher%20in%20Greek.py)
+* [Morse Code in Greek - You can hear your text only in Morse Code](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Morse%20Cipher%20in%20Greek.py)
 * [ROT 13](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Rot13%20Cipher.py)
 * [ROT 47](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/ROT47.py)
 * [RSA](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/RSA%20Cipher.py)
