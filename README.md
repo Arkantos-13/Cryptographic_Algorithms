@@ -17,7 +17,7 @@ Below, are all the ciphers i have done so far, but my purpose is to do more in t
 * [Affine](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Affine%20Cipher.py) 
 * [Atbash](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Atbash%20Cipher.py)
 * [Binary](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Binary%20Cipher.py)
-* [Caesar Cipher the Classic version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Classic%201.0.py)
+* [Caesar Cipher - Classic version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Classic%201.0.py)
 * [Caesar Cipher 2.0 - Advanced version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Improvement%202.0.py)
 * [Caesar Cipher 3.0 - Advanced version](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20Improvement%203.0.py)
 * [Caesar Cipher in Greek](https://github.com/Arkantos-13/Cryptographic_Algorithms/blob/main/Caesar%20Cipher%20in%20Greek.py)
