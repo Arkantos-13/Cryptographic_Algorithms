@@ -4,23 +4,19 @@
 ![23qtg3hvggm0gux8nu0v](https://user-images.githubusercontent.com/64365608/120760101-676ec180-c51c-11eb-8533-df10375bd938.jpg)
 
 
-**What is cryptography?** 
+***What is cryptography?***
 
 Cryptography is associated with the process of converting ordinary plain text into unintelligible text and vice-versa. It is a method of storing and transmitting data in a particular form so that only those for whom it is intended can read and process it. 
 Cryptography not only protects data from theft or alteration, but can also be used for user authentication.
 Nowadays, cryptography is used in many applications like banking transactions cards, computer passwords, and e-commerce transactions.
 
 
-Description: Earlier cryptography was effectively synonymous with encryption but nowadays cryptography is mainly based on mathematical theory and computer science practice.
+***Description:*** Earlier cryptography was effectively synonymous with encryption but nowadays cryptography is mainly based on mathematical theory and computer science practice.
 
 
 
+***Modern cryptography concerns with:***
 
-
-
-
-
-**Modern cryptography concerns with:**
 
 
 **Confidentiality** - Information cannot be understood by anyone.
@@ -33,13 +29,13 @@ Description: Earlier cryptography was effectively synonymous with encryption but
 
 
 
-**Three types of cryptographic techniques used in general.**
+***Three types of cryptographic techniques used in general.***
 
- 1. Symmetric-key cryptography
+ **1. Symmetric-key cryptography**
 
- 2. Hash functions.
+ **2. Hash functions**
 
- 3. Public-key cryptography
+ **3. Public-key cryptography**
 
 
 
