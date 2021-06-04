@@ -51,15 +51,8 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
 
 
-![symmetric-encryption](https://user-images.githubusercontent.com/64365608/120762544-0a283f80-c51f-11eb-8072-2cbeb22b9b1c.png)
 
 ***Symmetric-key Cryptography:*** Both the sender and receiver share a single key. The sender uses this key to encrypt plaintext and send the cipher text to the receiver. On the other side the receiver applies the same key to decrypt the message and recover the plain text.
-
-
-
-
-
-
 
 ***Public-Key Cryptography:*** This is the most revolutionary concept in the last 300-400 years. In Public-Key Cryptography two related keys (public and private key) are used. Public key may be freely distributed, while its paired private key, remains a secret. The public key is used for encryption and for decryption private key is used.
 
