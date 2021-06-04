@@ -4,7 +4,7 @@
 ![23qtg3hvggm0gux8nu0v](https://user-images.githubusercontent.com/64365608/120760101-676ec180-c51c-11eb-8533-df10375bd938.jpg)
 
 
-***What is cryptography?***
+## What is cryptography?
 
 Cryptography is associated with the process of converting ordinary plain text into unintelligible text and vice-versa. It is a method of storing and transmitting data in a particular form so that only those for whom it is intended can read and process it. 
 Cryptography not only protects data from theft or alteration, but can also be used for user authentication.
@@ -15,41 +15,25 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
 
 
-***Modern cryptography concerns with:***
+## Modern cryptography concerns with:
+
+***Confidentiality*** - Information cannot be understood by anyone.
+
+***Integrity*** - Information cannot be altered.
+
+***Non-repudiation*** - Sender cannot deny his/her intentions in the transmission of the information at a later stage.
+
+***Authentication*** - Sender and receiver can confirm each.
 
 
 
-**Confidentiality** - Information cannot be understood by anyone.
-
-**Integrity** - Information cannot be altered.
-
-**Non-repudiation** - Sender cannot deny his/her intentions in the transmission of the information at a later stage.
-
-**Authentication** - Sender and receiver can confirm each.
-
-
-
-***Three types of cryptographic techniques used in general.***
+## Three types of cryptographic techniques used in general:
 
  ***1. Symmetric-key cryptography***
 
  ***2. Hash functions***
 
  ***3. Public-key cryptography***
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ***Symmetric-key Cryptography:*** Both the sender and receiver share a single key. The sender uses this key to encrypt plaintext and send the cipher text to the receiver. On the other side the receiver applies the same key to decrypt the message and recover the plain text.
