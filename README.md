@@ -13,6 +13,9 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
 ***Description:*** Earlier cryptography was effectively synonymous with encryption but nowadays cryptography is mainly based on mathematical theory and computer science practice.
 
+#
+#
+#
 
 
 ## Modern cryptography concerns with:
@@ -25,7 +28,9 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
 ***Authentication*** - Sender and receiver can confirm each.
 
-
+#
+#
+#
 
 ## Three types of cryptographic techniques used in general:
 
