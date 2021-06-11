@@ -12,7 +12,7 @@ def egcd(a, b):
 Modular Multiplicative Inverse Function
 """
 
-def modinv(a, m):
+def mod_inv(a, m):
     gcd, x, y = egcd(a, m)
     if gcd != 1:
         return None  # modular inverse does not exist
@@ -51,15 +51,18 @@ Driver Code to test the above functions
 """
 
 def main():
+    
     # declaring text and key
     message = input('Please type your message you would like to Encrypt or Decrypt: ')
     key = [17, 20]
     choice = int(input('Press 1. For Encryption or 2. For Decryption: '))
+    
     if choice == 1:
         # calling encryption function
         affine_encrypted_text = affine_encrypt(message, key)
 
         print('Your encrypted text is the following: {}'.format(affine_encrypted_text))
+        
     else:
         # calling decryption function
         print('Your decrypted text is the following: {}'.format
