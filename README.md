@@ -35,6 +35,7 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
  ***3. Public-key cryptography***
 
+<br>
 
 ***Symmetric-key Cryptography:*** Both the sender and receiver share a single key. The sender uses this key to encrypt plaintext and send the cipher text to the receiver. On the other side the receiver applies the same key to decrypt the message and recover the plain text.
 
@@ -55,6 +56,8 @@ Also, i have tried to explain how each cipher works, the level of security that 
 The ciphers have been written in Python 3.8 and PyCharm 2020.3.5.
 
 My purpose is to add more ciphers as time pass with the same quality.
+
+<br>
 
 Below, are all the ciphers i have done so far, but my purpose is to do more in the near future.
 
