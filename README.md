@@ -13,6 +13,7 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
 ***Description:*** Earlier cryptography was effectively synonymous with encryption but nowadays cryptography is mainly based on mathematical theory and computer science practice.
 
+<br>
 
 ## Modern cryptography concerns with:
 
@@ -24,6 +25,7 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
 ***Authentication*** - Sender and receiver can confirm each.
 
+<br>
 
 ## Three types of cryptographic techniques used in general:
 
@@ -42,6 +44,7 @@ Nowadays, cryptography is used in many applications like banking transactions ca
 
 ***Hash Functions:*** No key is used in this algorithm. A fixed-length hash value is computed as per the plain text that makes it impossible for the contents of the plain text to be recovered. Hash functions are also used by many operating systems to encrypt passwords.
 
+<br>
 
 Representation of different kind of cryptographic ciphers in Python with explanations and therefore comments for better understanding by everyone.
 
