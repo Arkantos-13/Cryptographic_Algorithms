@@ -69,15 +69,15 @@ No key is used in this algorithm. A fixed-length hash value is computed as per t
 <!---- Information ---->
 <h3 align="left">Information<hr></h1> </p> 
 
-Representation of different kind of cryptographic ciphers in Python with explanations and therefore comments for better understanding by everyone.
+In this repository we are able to find out representation of different kinds of cryptographic ciphers written in Python, with explanations and 	additionally comments for better understanding by everyone.
 
-Inside each cipher file, you will find out both the encryption and the decryption method.
+Inside each cipher file, you will find both the encryption and the decryption method.
 
 Also, i have tried to explain how each cipher works, the level of security that provide and if it's safe or not.
 
 The ciphers have been written in Python 3.8 and PyCharm 2020.3.5.
 
-My purpose is to add more ciphers as time pass with the same quality.
+My purpose is to add more ciphers as time pass in order to contain all the ciphers.
 
 </p> 
 
